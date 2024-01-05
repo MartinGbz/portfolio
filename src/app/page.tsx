@@ -3,6 +3,7 @@ import { Background } from "@/components/background";
 import { ButtonsBar } from "@/components/buttons-bar";
 import { Projects } from "@/components/projects";
 import { Skills } from "@/components/skills";
+import { Footer } from "@/components/footer";
 
 export default function Home() {
   return (
@@ -76,6 +77,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <Footer />
       <Background />
     </main>
   );
