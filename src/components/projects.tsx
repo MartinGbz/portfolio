@@ -19,7 +19,7 @@ interface ProjectsProps {
 export function Projects({ className }: ProjectsProps) {
   return (
     <div className={className}>
-      <h2 className="text-center text-5xl font-title text-primary-foreground">
+      <h2 className="text-center text-3xl md:text-5xl font-title text-primary-foreground">
         {"Last projects"}
       </h2>
       <div className="flex flex-row flex-wrap gap-4 justify-evenly text-center *:basis-full *:max-w-80 text-lg">

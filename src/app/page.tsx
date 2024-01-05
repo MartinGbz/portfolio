@@ -2,6 +2,7 @@ import Image from "next/image";
 import { Background } from "@/components/background";
 import { ButtonsBar } from "@/components/buttons-bar";
 import { Projects } from "@/components/projects";
+import { Skills } from "@/components/skills";
 
 export default function Home() {
   return (
@@ -30,7 +31,7 @@ export default function Home() {
                   href="https://www.sismo.io/">
                   {"Sismo"}
                   <Image
-                    className="w-[35px] ml-1"
+                    className="w-[25px] h-[25px] md:w-[35px] md:h-[35px] ml-1"
                     src="/icons/sismo.png"
                     alt="me"
                     width={250}
@@ -58,22 +59,27 @@ export default function Home() {
         </div>
       </div>
       <div className="flex flex-col w-screen items-center gap-y-10 md:gap-y-24">
-        <div className="flex flex-col gap-8 w-full">
-          <h2 className="text-center text-5xl font-title text-primary-foreground">
+        <Skills className="flex flex-col gap-4 md:gap-8 w-full" />
+        {/* <div className="flex flex-col gap-8 w-full">
+          <h2 className="text-center text-3xl md:text-5xl font-title text-primary-foreground">
             {"Skills"}
           </h2>
-          <div className="grid grid-cols-3 justify-items-center mx-10	*:text-lg">
+          <div className="grid grid-cols-3 justify-items-center mx-10	">
             <div>
-              <h3 className="text-3xl font-title mb-2">Front</h3>
-              <ul>
+              <h3 className="text-xl md:text-3xl font-title mb-2 text-center">
+                Front
+              </h3>
+              <ul className="*:text-sm *:md:text-lg">
                 <li>React</li>
                 <li>NextJs </li>
                 <li>wagmi / viem</li>
               </ul>
             </div>
             <div>
-              <h3 className="text-3xl font-title mb-2">Back</h3>
-              <ul>
+              <h3 className="text-xl md:text-3xl font-title mb-2 text-center">
+                Back
+              </h3>
+              <ul className="*:text-sm *:md:text-lg">
                 <li>Solidity</li>
                 <li>Foundry</li>
                 <li>Node.js</li>
@@ -81,18 +87,20 @@ export default function Home() {
               </ul>
             </div>
             <div>
-              <h3 className="text-3xl font-title mb-2">Other</h3>
-              <ul>
+              <h3 className="text-xl md:text-3xl font-title mb-2 text-center">
+                Other
+              </h3>
+              <ul className="*:text-sm *:md:text-lg">
                 <li>Git</li>
                 <li>Github</li>
                 <li>Vercel</li>
               </ul>
             </div>
           </div>
-        </div>
+        </div> */}
         <Projects className="flex flex-col gap-8 mx-8" />
-        <div className="flex flex-col gap-8 w-full items-center px-8 pb-8">
-          <h2 className="text-5xl font-title text-primary-foreground">
+        <div className="flex flex-col gap-4 md:gap-8 w-full items-center px-8 pb-8">
+          <h2 className="text-3xl md:text-5xl font-title text-primary-foreground">
             {"Education"}
           </h2>
           <div className="text-center">
