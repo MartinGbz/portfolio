@@ -1,6 +1,7 @@
 <svg viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
   <g>
-    <path fill="#27B08B">
+    <!-- hsl(164, 60%, 40%, 0.7) -->
+    <path fill="hsla(164, 64%, 42%, 0.7)">
       <animate
         attributeName="d"
         dur="15"

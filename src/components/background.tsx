@@ -19,19 +19,19 @@ export function Background() {
   }, []);
 
   return isClient ? (
-    <div className="absolute w-screen h-screen top-0 left-0 -z-10 blur-xl">
+    <div className="absolute w-screen h-screen top-0 left-0 -z-10 blur-2xl">
       <div className="absolute w-screen h-screen  -top-1/4 -left-1/2">
         {browsersNotSupported.includes(browserName) ? (
-          <object type="image/svg+xml" data="blob1.svg" />
+          <object type="image/svg+xml" data="blobs/blob1.svg" />
         ) : (
-          <object type="image/svg+xml" data="blob1-animated.svg" />
+          <object type="image/svg+xml" data="blobs/blob1-animated.svg" />
         )}
       </div>
       <div className="absolute w-screen h-screen top-1/2 -right-1/2">
         {browsersNotSupported.includes(browserName) ? (
-          <object type="image/svg+xml" data="blob2.svg" />
+          <object type="image/svg+xml" data="blobs/blob2.svg" />
         ) : (
-          <object type="image/svg+xml" data="blob2-animated.svg" />
+          <object type="image/svg+xml" data="blobs/blob2-animated.svg" />
         )}
       </div>
     </div>
