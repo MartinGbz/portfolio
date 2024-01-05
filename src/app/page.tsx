@@ -26,12 +26,12 @@ export default function Home() {
               <span className="w-fit text-xl md:text-3xl md:text-left font-title">
                 <span>{"Prev."}</span>
                 <a
-                  className="inline-flex mx-1 ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+                  className="inline-flex items-center mx-1 ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
                   target="_blank"
                   href="https://www.sismo.io/">
                   {"Sismo"}
                   <Image
-                    className="w-[25px] h-[25px] md:w-[35px] md:h-[35px] ml-1"
+                    className="w-[25px] h-[25px] md:w-[30px] md:h-[30px] ml-1 rounded"
                     src="/icons/sismo.png"
                     alt="me"
                     width={250}
@@ -58,7 +58,7 @@ export default function Home() {
           <ButtonsBar className="" />
         </div>
       </div>
-      <div className="flex flex-col w-screen items-center gap-y-10 md:gap-y-24">
+      <div className="flex flex-col w-screen items-center gap-y-10 md:gap-y-16">
         <Skills className="flex flex-col gap-4 md:gap-8 w-full" />
         <Projects className="flex flex-col gap-8 mx-8" />
         <div className="flex flex-col gap-4 md:gap-8 w-full items-center px-8 pb-8">
