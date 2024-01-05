@@ -22,21 +22,22 @@ export default function Home() {
               <p className="w-fit text-xl text-center md:text-3xl md:text-left font-title">
                 {"Software engineer & web3 believer/builder."}
               </p>
-              <div className="w-fit flex items-center text-xl md:text-3xl md:text-left font-title">
-                {"Prev. Sismo"}
+              <span className="w-fit text-xl md:text-3xl md:text-left font-title">
+                <span>{"Prev."}</span>
                 <a
-                  className="ml-1 ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+                  className="inline-flex mx-1 ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
                   target="_blank"
                   href="https://www.sismo.io/">
+                  {"Sismo"}
                   <Image
-                    className="w-[35px]"
+                    className="w-[35px] ml-1"
                     src="/icons/sismo.png"
                     alt="me"
                     width={250}
                     height={250}
                   />
                 </a>
-              </div>
+              </span>
             </div>
             <div className="flex items-center md:justify-end">
               <a
@@ -53,10 +54,10 @@ export default function Home() {
               </a>
             </div>
           </div>
-          <ButtonsBar className="w-fit h-fit flex gap-4 flex-wrap justify-center" />
+          <ButtonsBar className="" />
         </div>
       </div>
-      <div className="flex flex-col h-screen w-screen items-center gap-y-10 md:gap-y-24">
+      <div className="flex flex-col w-screen items-center gap-y-10 md:gap-y-24">
         <div className="flex flex-col gap-8 w-full">
           <h2 className="text-center text-5xl font-title text-primary-foreground">
             {"Skills"}
