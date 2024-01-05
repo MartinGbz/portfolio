@@ -17,11 +17,8 @@
     --popover: 222.2 84% 4.9%;
     --popover-foreground: 210 40% 98%;
 
-    /* color: hsla(164, 64%, 42%, 0.721); */
-
     /* (5) (3 => too dark)*/
     --primary: 161 62% 17%;
-    /* (9) color: hsl(164, 60%, 40%); */
     /* (12) */
     --primary-foreground: 155 69% 81%;
 

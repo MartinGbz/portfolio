@@ -60,44 +60,6 @@ export default function Home() {
       </div>
       <div className="flex flex-col w-screen items-center gap-y-10 md:gap-y-24">
         <Skills className="flex flex-col gap-4 md:gap-8 w-full" />
-        {/* <div className="flex flex-col gap-8 w-full">
-          <h2 className="text-center text-3xl md:text-5xl font-title text-primary-foreground">
-            {"Skills"}
-          </h2>
-          <div className="grid grid-cols-3 justify-items-center mx-10	">
-            <div>
-              <h3 className="text-xl md:text-3xl font-title mb-2 text-center">
-                Front
-              </h3>
-              <ul className="*:text-sm *:md:text-lg">
-                <li>React</li>
-                <li>NextJs </li>
-                <li>wagmi / viem</li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="text-xl md:text-3xl font-title mb-2 text-center">
-                Back
-              </h3>
-              <ul className="*:text-sm *:md:text-lg">
-                <li>Solidity</li>
-                <li>Foundry</li>
-                <li>Node.js</li>
-                <li>SQL</li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="text-xl md:text-3xl font-title mb-2 text-center">
-                Other
-              </h3>
-              <ul className="*:text-sm *:md:text-lg">
-                <li>Git</li>
-                <li>Github</li>
-                <li>Vercel</li>
-              </ul>
-            </div>
-          </div>
-        </div> */}
         <Projects className="flex flex-col gap-8 mx-8" />
         <div className="flex flex-col gap-4 md:gap-8 w-full items-center px-8 pb-8">
           <h2 className="text-3xl md:text-5xl font-title text-primary-foreground">
