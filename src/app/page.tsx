@@ -33,7 +33,7 @@ export default function Home() {
                   {"Sismo"}
                   <Image
                     className="w-[25px] h-[25px] md:w-[30px] md:h-[30px] ml-1 rounded"
-                    src="/icons/sismo.png"
+                    src={"/icons/sismo.png"}
                     alt="me"
                     width={250}
                     height={250}
@@ -48,7 +48,7 @@ export default function Home() {
                 href="https://etherscan.io/nft/0x8b4616926705fb61e9c4eeac07cd946a5d4b0760/5977">
                 <Image
                   className="min-w-[250px]"
-                  src="lucha.svg"
+                  src={"/lucha.svg"}
                   alt="me"
                   width={250}
                   height={250}
