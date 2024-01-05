@@ -13,9 +13,28 @@ const doppio = Doppio({
   variable: "--font-doppio",
 });
 
+const WEBSITE_DOMAIN = "https://portfolio-martingbz.vercel.app";
+
 export const metadata: Metadata = {
   title: "MartinGbz",
   description: "Martingbz's Portfolio",
+  openGraph: {
+    title: "MartinGbz",
+    description: "Martingbz's Portfolio",
+    type: "website",
+    images: [
+      {
+        url: WEBSITE_DOMAIN + "/og",
+      },
+    ],
+    url: WEBSITE_DOMAIN,
+  },
+  twitter: {
+    title: "MartinGbz",
+    description: "Martingbz's Portfolio",
+    creator: "@0xMartinGbz",
+    images: [WEBSITE_DOMAIN + "/og"],
+  },
 };
 
 export default function RootLayout({
