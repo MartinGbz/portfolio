@@ -19,7 +19,9 @@ export function Background() {
   }, []);
 
   return isClient ? (
-    <div className="absolute w-screen h-screen top-0 left-0 -z-10 blur-2xl">
+    // animate-fade-in to mask/hide the blob to appear before the page
+    // (because th whole page is creating before the background is rendered because of hydratation issues)
+    <div className="absolute w-screen h-screen top-0 left-0 -z-10 blur-2xl animate-fade-in">
       <div className="absolute w-screen h-screen  -top-1/4 -left-1/2">
         {browsersNotSupported.includes(browserName) ? (
           <object type="image/svg+xml" data="blobs/blob1.svg" />
