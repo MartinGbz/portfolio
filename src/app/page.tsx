@@ -56,10 +56,10 @@ export default function Home() {
               </a>
             </div>
           </div>
-          <ButtonsBar className="" />
+          <ButtonsBar />
         </div>
       </div>
-      <div className="flex flex-col w-screen items-center gap-y-14 md:gap-y-20">
+      <div className="flex flex-col w-screen items-center gap-y-14 md:gap-y-20 overflow-hidden">
         <Skills className="flex flex-col gap-4 md:gap-8 w-full" />
         <Projects className="flex flex-col gap-8 mx-8" />
         <div className="flex flex-col w-full items-center px-8 pb-8 gap-2 md:gap-4">
