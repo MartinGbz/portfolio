@@ -35,6 +35,7 @@ export const metadata: Metadata = {
     creator: "@0xMartinGbz",
     images: [WEBSITE_DOMAIN + "/og"],
   },
+  metadataBase: new URL(WEBSITE_DOMAIN),
 };
 
 export default function RootLayout({
