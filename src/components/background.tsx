@@ -4,15 +4,11 @@ import { useEffect, useState } from "react";
 import { browserName } from "react-device-detect";
 
 export function Background() {
-  var scrollHeight = document.body.offsetHeight;
-  // console.log(scrollHeight);
-
   // fix hydratation error when loading the page
   // we wait for the client to be ready before rendering this component
   const [isClient, setIsClient] = useState(false);
 
   const browsersNotSupported = ["Safari", "Mobile Safari", "Edge"];
-  console.log(browsersNotSupported.includes(browserName));
 
   useEffect(() => {
     setIsClient(true);

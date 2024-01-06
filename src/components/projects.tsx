@@ -24,7 +24,7 @@ export function Projects({ className }: ProjectsProps) {
       </h2>
       {/* <div className="flex flex-row flex-wrap gap-4 justify-evenly text-center *:basis-full *:max-w-80 text-lg"> */}
       <div className="flex flex-row flex-wrap gap-4 justify-evenly text-center *:basis-full *:max-w-80 text-lg">
-        <Card className="">
+        <Card>
           <CardHeader>
             <CardTitle className="flex justify-center items-end">
               {"zk-whiteboard"}
