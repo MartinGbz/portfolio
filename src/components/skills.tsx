@@ -17,7 +17,7 @@ export function Skills({ className }: ProjectsProps) {
           <h3 className="text-xl md:text-3xl font-title mb-2 text-center">
             Front
           </h3>
-          <ul className="*:text-sm *:md:text-lg">
+          <ul className="*:text-sm *:md:text-lg *:mb-2">
             <li className="flex items-center">
               <Image
                 className="mr-2 w-4"
@@ -64,7 +64,7 @@ export function Skills({ className }: ProjectsProps) {
           <h3 className="text-xl md:text-3xl font-title mb-2 text-center">
             Back
           </h3>
-          <ul className="*:text-sm *:md:text-lg">
+          <ul className="*:text-sm *:md:text-lg *:mb-2">
             <li className="flex items-center">
               <Image
                 className="mr-2 w-5 h-5"
@@ -111,7 +111,7 @@ export function Skills({ className }: ProjectsProps) {
           <h3 className="text-xl md:text-3xl font-title mb-2 text-center">
             Other
           </h3>
-          <ul className="*:text-sm *:md:text-lg">
+          <ul className="*:text-sm *:md:text-lg *:mb-2">
             <li className="flex items-center">
               <Image
                 className="mr-2 w-5 h-5"
