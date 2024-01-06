@@ -8,7 +8,7 @@ interface ProjectsProps {
 
 export function Skills({ className }: ProjectsProps) {
   return (
-    <div className={className}>
+    <div className={className} id="skills">
       <h2 className="text-center text-3xl md:text-5xl font-title text-primary-foreground">
         {"Skills"}
       </h2>
