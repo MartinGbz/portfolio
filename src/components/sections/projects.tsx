@@ -1,6 +1,6 @@
 "use client";
 
-import { A } from "./ui/a";
+import { A } from "../ui/a";
 import Image from "next/image";
 import {
   Card,
@@ -9,7 +9,7 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "./ui/card";
+} from "../ui/card";
 import { ExternalLink } from "lucide-react";
 
 interface ProjectsProps {
@@ -22,7 +22,6 @@ export function Projects({ className }: ProjectsProps) {
       <h2 className="text-center text-3xl md:text-5xl font-title text-primary-foreground">
         {"Last projects"}
       </h2>
-      {/* <div className="flex flex-row flex-wrap gap-4 justify-evenly text-center *:basis-full *:max-w-80 text-lg"> */}
       <div className="flex flex-row flex-wrap gap-4 justify-evenly text-center *:basis-full *:max-w-80 text-lg">
         <Card>
           <CardHeader>
