@@ -1,12 +1,10 @@
 import { ImageResponse } from "next/og";
 
+const WEBSITE_DOMAIN = "https://portfolio-martingbz.vercel.app";
+
 export const runtime = "edge";
 
 export async function GET() {
-  const image = await fetch(
-    new URL("/public/thumbnail.png", import.meta.url)
-  ).then((res) => res.arrayBuffer());
-
   return new ImageResponse(
     (
       <div
@@ -20,7 +18,7 @@ export async function GET() {
           alignItems: "center",
         }}>
         {/*eslint-disable-next-line @next/next/no-img-element */}
-        <img src={image} alt="thumbnail" />
+        <img src={WEBSITE_DOMAIN + "/thumbnail.png"} alt="thumbnail" />
       </div>
     ),
     {
