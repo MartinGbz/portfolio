@@ -46,7 +46,17 @@ export function Skills({ className }: ProjectsProps) {
                 height={200}
                 width={200}
               />
-              {"wagmi / viem"}
+              {"Wagmi / Viem"}
+            </li>
+            <li className="flex items-center">
+              <Image
+                className="mr-2 w-5 h-5"
+                src={"/icons/techs/tailwind.svg"}
+                alt="x"
+                height={200}
+                width={200}
+              />
+              {"Tailwind"}
             </li>
           </ul>
         </div>

@@ -22,6 +22,7 @@ export function Projects({ className }: ProjectsProps) {
       <h2 className="text-center text-3xl md:text-5xl font-title text-primary-foreground">
         {"Last projects"}
       </h2>
+      {/* <div className="flex flex-row flex-wrap gap-4 justify-evenly text-center *:basis-full *:max-w-80 text-lg"> */}
       <div className="flex flex-row flex-wrap gap-4 justify-evenly text-center *:basis-full *:max-w-80 text-lg">
         <Card className="">
           <CardHeader>
@@ -37,6 +38,17 @@ export function Projects({ className }: ProjectsProps) {
             </CardTitle>
             <CardDescription>
               Express yourself freely & anonymously without bots spamming
+              <br />
+              <br />
+              <span className="mt-2">
+                <span>{"🤝 Project granted by "}</span>
+                <a
+                  className="text-secondary-foreground underline underline-offset-4 ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+                  target="_blank"
+                  href="https://www.sismo.io/">
+                  {"Sismo"}
+                </a>
+              </span>
             </CardDescription>
           </CardHeader>
           <CardContent className="flex justify-center">
@@ -52,7 +64,7 @@ export function Projects({ className }: ProjectsProps) {
             <a href="https://github.com/MartinGbz/ZK-whiteboard">
               <Image
                 className="w-[20px] h-[20px] mr-2"
-                src={"/icons/projects/github.svg"}
+                src={"/icons/socials/github.svg"}
                 alt="github"
                 height={20}
                 width={20}
@@ -83,7 +95,7 @@ export function Projects({ className }: ProjectsProps) {
             <a href="https://github.com/MartinGbz/OnlyGoodVibes">
               <Image
                 className="w-[20px] h-[20px] mr-2"
-                src={"/icons/projects/github.svg"}
+                src={"/icons/socials/github.svg"}
                 alt="github"
                 height={20}
                 width={20}
@@ -116,7 +128,7 @@ export function Projects({ className }: ProjectsProps) {
             <a href="https://github.com/MartinGbz/NameDayToken-front">
               <Image
                 className="w-[20px] h-[20px] mr-2"
-                src={"/icons/projects/github.svg"}
+                src={"/icons/socials/github.svg"}
                 alt="github"
                 height={20}
                 width={20}
