@@ -10,11 +10,8 @@ interface ButtonsBarProps {
 
 export function ButtonsBar({ className }: ButtonsBarProps) {
   return (
-    <div className="flex flex-col gap-y-4 items-center">
-      <div
-        className={
-          className + " w-fit h-fit flex gap-4 flex-wrap justify-center"
-        }>
+    <div className={`${className} flex flex-col gap-y-4 items-center`}>
+      <div className="w-fit h-fit flex gap-4 flex-wrap justify-center">
         <A className="rounded-lg" href="https://github.com/MartinGbz">
           <Image
             className="mr-2 h-4 w-4"
@@ -90,10 +87,7 @@ export function ButtonsBar({ className }: ButtonsBarProps) {
           {"Linkedin"}
         </A>
       </div>
-      <div
-        className={
-          className + " w-fit h-fit flex gap-4 flex-wrap justify-center"
-        }>
+      <div className=" w-fit h-fit flex gap-4 flex-wrap justify-center">
         <A
           className="rounded-lg"
           href="MartinGbz_resume.pdf"

@@ -8,7 +8,9 @@ interface ProjectsProps {
 
 export function Skills({ className }: ProjectsProps) {
   return (
-    <div className={className} id="skills">
+    <div
+      className={`${className} flex flex-col gap-4 md:gap-8 w-full`}
+      id="skills">
       <h2 className="text-center text-3xl md:text-5xl font-title text-primary-foreground">
         {"Skills"}
       </h2>

@@ -16,7 +16,7 @@ export function Footer({ className }: FooterProps) {
         height={208}
         width={1000}
       />
-      <p className="absolute bottom-4 left-1/2 text-center -translate-x-1/2">
+      <p className="absolute bottom-4 left-1/2 text-center -translate-x-1/2 text-xs md:text-base">
         {" "}
         Built with ❤️ by MartinGbz{" "}
       </p>

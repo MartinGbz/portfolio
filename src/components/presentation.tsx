@@ -8,7 +8,8 @@ interface PresentationProps {
 
 export function Presentation({ className }: PresentationProps) {
   return (
-    <div className={className}>
+    <div
+      className={`${className} flex flex-col-reverse md:flex-row items-center gap-8`}>
       <div className="flex flex-col items-center md:items-start">
         <div className="text-sm md:text-xl font-title">
           <span className="w-fit inline-block animate-wiggle text-sm md:text-xl">

@@ -6,7 +6,8 @@ interface AboutMeProps {
 
 export function AboutMe({ className }: AboutMeProps) {
   return (
-    <div className={className}>
+    <div
+      className={`${className} flex flex-col w-full items-center gap-2 md:gap-4`}>
       <h2 className="text-3xl md:text-5xl font-title text-primary-foreground">
         {"About me"}
       </h2>
