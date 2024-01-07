@@ -74,7 +74,7 @@ export function Projects({ className }: ProjectsProps) {
             </a>
           </CardFooter>
         </Card>
-        <Card className="relative">
+        <Card>
           <CardHeader>
             <CardTitle>{"OnlyGoodVibes 🤗"}</CardTitle>
             <CardDescription>
@@ -90,7 +90,7 @@ export function Projects({ className }: ProjectsProps) {
               width={500}
             />
           </CardContent>
-          <CardFooter className="absolute bottom-0">
+          <CardFooter>
             <a href="https://github.com/MartinGbz/OnlyGoodVibes">
               <Image
                 className="w-[20px] h-[20px] mr-2"
@@ -105,7 +105,7 @@ export function Projects({ className }: ProjectsProps) {
             </a>
           </CardFooter>
         </Card>
-        <Card className="relative">
+        <Card>
           <CardHeader>
             <CardTitle>{"NameDayoken 🥳"}</CardTitle>
             <CardDescription>
@@ -123,7 +123,7 @@ export function Projects({ className }: ProjectsProps) {
               width={500}
             />
           </CardContent>
-          <CardFooter className="absolute bottom-0">
+          <CardFooter>
             <a href="https://github.com/MartinGbz/NameDayToken-front">
               <Image
                 className="w-[20px] h-[20px] mr-2"
