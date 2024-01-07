@@ -20,10 +20,10 @@ export function AboutMe({ className }: AboutMeProps) {
             href="https://ig2i.centralelille.fr/">
             {"Ecole Centrale Lille IG2I"}
           </a>
-          {" and was graduated 🧑‍🎓 in end of 2023."}
+          {" and was graduated in end of 2023 🧑‍🎓"}
         </div>
         <div>
-          <span>{"Joined "}</span>
+          <span>{"I joined "}</span>
           <a
             className="text-secondary-foreground underline underline-offset-4 ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
             target="_blank"
@@ -32,7 +32,7 @@ export function AboutMe({ className }: AboutMeProps) {
           </a>
           <span>
             {
-              " for my end-of-studies internship as a developer support engineer, I loved this experience, and it opened a lot of doors for me."
+              " for my end-of-studies internship as a developer support engineer, and I loved this experience."
             }
           </span>
         </div>
@@ -66,7 +66,7 @@ export function AboutMe({ className }: AboutMeProps) {
         </div>
         <p>
           {
-            "Since the end of my internship, I've decided to take some time for myself and work on my own projects. The main aim is to learn/build all the things I didn't have time to do when I was at school."
+            "Since the end of my internship, I've decided to take some time for myself and work on my own projects. The aim is to learn/build all the things I didn't have time to do when I was at school."
           }
         </p>
         <p>{"Let's see what's next for me! 👀"}</p>
