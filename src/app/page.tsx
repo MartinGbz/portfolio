@@ -13,7 +13,7 @@ export default function Home() {
       <div className="flex h-screen w-screen flex-col gap-10 px-3 w-fit h-fit items-center justify-center">
         <Presentation className="px-4" />
         <ButtonsBar />
-        <ButtonDown className="hidden md:block absolute bottom-32 left-1/2 -translate-x-1/2" />
+        <ButtonDown className="hidden md:block" />
       </div>
       <div className="flex flex-col w-screen items-center gap-y-14 md:gap-y-20 overflow-hidden max-w-7xl m-auto">
         <Skills />
