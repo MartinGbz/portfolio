@@ -86,6 +86,9 @@ const config = {
         title: ["var(--font-kanit)"],
         body: ["var(--font-doppio)"],
       },
+      screens: {
+        smmh: { raw: "(max-height: 800px)" },
+      },
     },
   },
   plugins: [require("tailwindcss-animate")],

@@ -10,10 +10,10 @@ import { ButtonDown } from "@/components/button-down";
 export default function Home() {
   return (
     <main className="font-body">
-      <div className="flex h-screen w-screen flex-col gap-10 px-3 w-fit h-fit items-center justify-center">
+      <div className="flex h-screen w-screen flex-col gap-10 sm:gap-2 lg:gap-10 px-3 w-fit h-fit items-center justify-center">
         <Presentation className="px-4" />
         <ButtonsBar />
-        <ButtonDown className="hidden md:block" />
+        <ButtonDown className="hidden lg:block" />
       </div>
       <div className="flex flex-col w-screen items-center gap-y-14 md:gap-y-20 overflow-hidden max-w-7xl m-auto">
         <Skills />

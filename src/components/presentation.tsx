@@ -46,7 +46,7 @@ export function Presentation({ className }: PresentationProps) {
           target="_blank"
           href="https://etherscan.io/nft/0x8b4616926705fb61e9c4eeac07cd946a5d4b0760/5977">
           <Image
-            className="min-w-[250px]"
+            className="smmh:w-[150px] smmh:h-[150px] min-w-[250px]"
             src={"/lucha.svg"}
             alt="me"
             width={250}
