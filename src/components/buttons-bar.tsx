@@ -74,6 +74,16 @@ export function ButtonsBar({ className }: ButtonsBarProps) {
           />
           {"ENS"}
         </A>
+        <A className="rounded-lg" href="https://dune.com/martingbz">
+          <Image
+            className="mr-2 h-5 w-5"
+            src={"/icons/socials/dune.svg"}
+            alt="dune"
+            height={17}
+            width={17}
+          />
+          {"Dune"}
+        </A>
         <A
           className="rounded-lg"
           href="https://www.linkedin.com/in/martin-grabarz/">
