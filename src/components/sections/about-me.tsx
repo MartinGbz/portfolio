@@ -18,9 +18,9 @@ export function AboutMe({ className }: AboutMeProps) {
           <a
             className="text-secondary-foreground underline underline-offset-4"
             href="https://ig2i.centralelille.fr/">
-            {"Ecole Centrale Lille IG2I"}
+            {"Centrale Lille IG2I"}
           </a>
-          {" and was graduated in end of 2023 🧑‍🎓"}
+          {" engineering school and was graduated in end of 2023 🧑‍🎓"}
         </div>
         <div>
           <span>{"I joined "}</span>
