@@ -12,7 +12,7 @@ export function AboutMe({ className }: AboutMeProps) {
         {"About me"}
       </h2>
       <div className="flex flex-col gap-2 w-11/12 md:w-3/4 text-sm md:text-base">
-        <p>{"I'm Martin, 23yo boy who loves web3"}</p>
+        <p>{"I'm Martin, a 23yo boy who loves web3"}</p>
         <div>
           {"Did the "}
           <a

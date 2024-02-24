@@ -20,25 +20,27 @@ export function Presentation({ className }: PresentationProps) {
         <h1 className="text-5xl md:text-8xl text-primary-foreground font-title">
           {"MartinGbz"}
         </h1>
-        <p className="w-fit text-xl text-center md:text-3xl md:text-left font-title">
-          {"Software engineer & web3 believer/builder."}
-        </p>
-        <span className="w-fit text-xl md:text-3xl md:text-left font-title">
-          <span>{"Prev."}</span>
-          <a
-            className="inline-flex items-center mx-1 ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
-            target="_blank"
-            href="https://www.sismo.io/">
-            {"Sismo"}
-            <Image
-              className="w-[25px] h-[25px] md:w-[30px] md:h-[30px] ml-1 rounded"
-              src={"/icons/sismo.png"}
-              alt="me"
-              width={250}
-              height={250}
-            />
-          </a>
-        </span>
+        <div className=" whitespace-nowrap flex flex-col items-center md:items-start">
+          <p className="w-fit text-xl text-center md:text-3xl md:text-left font-title md:whitespace-nowrap">
+            {"Software engineer & web3 builder"}
+          </p>
+          <span className="w-fit text-xl md:text-3xl md:text-left font-title">
+            <span>{"Working at"}</span>
+            <a
+              className="inline-flex items-center mx-1 ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+              target="_blank"
+              href="https://www.sismo.io/">
+              {"Aave Chan Initiative"}
+              <Image
+                className="w-[35px] md:w-[45px] ml-2"
+                src={"/icons/aci-white.png"}
+                alt="me"
+                width={5130}
+                height={2538}
+              />
+            </a>
+          </span>
+        </div>
       </div>
       <div className="flex items-center md:justify-end">
         <a

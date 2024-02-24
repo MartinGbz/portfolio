@@ -10,7 +10,7 @@ export function ButtonDown({ className }: ButtonDownProps) {
   return (
     <a
       href="#skills"
-      className={`${className} border-2 rounded-full bg-primary text-primary-foreground hover:bg-primary/75 p-5`}>
+      className={`${className} border-2 rounded-full bg-primary text-primary-foreground hover:bg-primary/75 p-4`}>
       <ChevronDown className="w-8 h-8" />
     </a>
   );
